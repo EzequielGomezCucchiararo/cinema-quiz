@@ -1,0 +1,29 @@
+section {
+  background-color: #343a40;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  .logo {
+    h1 {
+      padding-left: 2rem;
+      color: #fff;
+      span {
+        color: #f1be22;
+      }
+    }
+  }
+  nav {
+    padding-left: 5rem;
+    a {
+      text-decoration: none;
+      display: inline-block;
+      color: #5e6368;
+      cursor: pointer;
+      margin: 0 .4rem;
+      transition: all 0.3s linear;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

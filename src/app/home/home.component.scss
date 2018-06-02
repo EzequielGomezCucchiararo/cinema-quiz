@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    image-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 5rem;
+      border: 1px solid #e1e1e1;
+      padding: 5rem;
+      cursor: pointer;
+      transition: all .2s linear;
+  
+      &:hover {
+          border-color: #f1be22;
+          background-color: #f1be22;
+          transform: scale(1.1);
+      }
+    }
+  }
